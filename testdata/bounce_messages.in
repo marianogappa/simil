@@ -1,0 +1,222 @@
+smtp; 421 4.7.1  Connection refused  <anonIP1>   Too many concurrent connections ( <2> ) from source IP
+smtp; 421 4.7.1  Connection refused  <anonIP2>   Too many concurrent connections ( <2> ) from source IP
+smtp; 421 4.7.1  Connection refused  <anonIP3>   Too many concurrent connections ( <2> ) from source IP
+smtp; 421 4.7.1  Connection refused  <anonIP4>   Too many concurrent connections ( <2> ) from source IP
+smtp; 421 4.7.1  Connection refused  <anonIP5>   Too many concurrent connections ( <2> ) from source IP
+smtp; 452 Too many recipients received this hour. Please see our rate limit policy at http://postmaster.rr.com/spam#ratelimit .
+smtp; 421 4.7.1  Connection refused  <anonIP6>   Too many concurrent connections ( <2> ) from source IP
+smtp; 421 4.7.1  Connection refused  <anonIP7>   Too many concurrent connections ( <2> ) from source IP
+smtp; 452 Too many recipients received this hour. Please see our rate limit policy at http://postmaster.rr.com/spam#ratelimit .
+XPostfix; delivery temporarily suspended: host anon1.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon2.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon3.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon4.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon5.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon6.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon7.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon8.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon9.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon10.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon11.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon12.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon13.email.rr.com[anonIP] refused to talk to me: 452
+smtp; 421 4.7.1  Connection refused  <anonIP8>   Too many concurrent connections ( <2> ) from source IP
+smtp; 421 4.7.1  Connection refused  <anonIP9>   Too many concurrent connections ( <2> ) from source IP
+smtp; 452 Too many recipients received this hour. Please see our rate limit policy at http://postmaster.rr.com/spam#ratelimit .
+smtp; 421 4.7.1  Connection refused  <anonIP10>   Too many concurrent connections ( <2> ) from source IP
+smtp; 452 Too many recipients received this hour. Please see our rate limit policy at http://postmaster.rr.com/spam#ratelimit .
+smtp; 421 4.7.1  Connection refused  <anonIP11>   Too many concurrent connections ( <2> ) from source IP
+smtp; 452 Too many recipients received this hour. Please see our rate limit policy at http://postmaster.rr.com/spam#ratelimit .
+smtp; 421 4.7.1  Connection refused  <anonIP12>   Too many concurrent connections ( <2> ) from source IP
+smtp; 421 4.7.1  Connection refused  <anonIP13>   Too many concurrent connections ( <2> ) from source IP
+smtp; 452 Too many recipients received this hour. Please see our rate limit policy at http://postmaster.rr.com/spam#ratelimit .
+XPostfix; delivery temporarily suspended: host anon14.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon15.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon16.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon17.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon18.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon19.email.rr.com[anonIP] refused to talk to me: 452
+smtp; 421 4.7.1  Connection refused  <anonIP1>   Too many concurrent connections ( <2> ) from source IP
+smtp; 452 Too many recipients received this hour. Please see our rate limit policy at http://postmaster.rr.com/spam#ratelimit .
+smtp; 421 4.7.1  Connection refused  <anonIP2>   Too many concurrent connections ( <2> ) from source IP
+smtp; 421 4.7.1  Connection refused  <anonIP3>   Too many concurrent connections ( <2> ) from source IP
+smtp; 421 4.7.1  Connection refused  <anonIP4>   Too many concurrent connections ( <2> ) from source IP
+smtp; 452 Too many recipients received this hour. Please see our rate limit policy at http://postmaster.rr.com/spam#ratelimit .
+smtp; 421 4.7.1  Connection refused  <anonIP5>   Too many concurrent connections ( <2> ) from source IP
+smtp; 452 Too many recipients received this hour. Please see our rate limit policy at http://postmaster.rr.com/spam#ratelimit .
+smtp; 452 Too many recipients received this hour. Please see our rate limit policy at http://postmaster.rr.com/spam#ratelimit .
+smtp; 452 Too many recipients received this hour. Please see our rate limit policy at http://postmaster.rr.com/spam#ratelimit .
+XPostfix; delivery temporarily suspended: host anon20.email.rr.com[anonIP] refused to talk to me: 452
+smtp; 452 Too many recipients received this hour. Please see our rate limit policy at http://postmaster.rr.com/spam#ratelimit .
+XPostfix; delivery temporarily suspended: host anon21.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon22.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon23.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon24.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon25.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon26.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon27.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon28.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon29.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon30.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon31.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon32.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon33.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon34.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon35.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon36.email.rr.com[anonIP] refused to talk to me: 452
+smtp; 421 4.7.1  Connection refused  <anonIP14>   Too many concurrent connections ( <2> ) from source IP
+smtp; 421 4.7.1  Connection refused  <anonIP15>   Too many concurrent connections ( <2> ) from source IP
+smtp; 421 4.7.1  Connection refused  <anonIP16>   Too many concurrent connections ( <3> ) from source IP
+smtp; 421 4.7.1  Connection refused  <anonIP17>   Too many concurrent connections ( <2> ) from source IP
+smtp; 421 4.7.1  Connection refused  <anonIP18>   Too many concurrent connections ( <2> ) from source IP
+smtp; 452 Too many recipients received this hour. Please see our rate limit policy at http://postmaster.rr.com/spam#ratelimit .
+smtp; 421 4.7.1  Connection refused  <anonIP19>   Too many concurrent connections ( <2> ) from source IP
+smtp; 421 4.7.1  Connection refused  <anonIP20>   Too many concurrent connections ( <2> ) from source IP
+smtp; 421 4.7.1  Connection refused  <anonIP21>   Too many concurrent connections ( <2> ) from source IP
+XPostfix; delivery temporarily suspended: host anon37.email.rr.com[anonIP] refused to talk to me: 421
+XPostfix; delivery temporarily suspended: host anon38.email.rr.com[anonIP] refused to talk to me: 421
+XPostfix; delivery temporarily suspended: host anon39.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon40.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon41.email.rr.com[anonIP] refused to talk to me: 421
+XPostfix; delivery temporarily suspended: host anon42.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon43.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon44.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon45.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon46.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon47.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon48.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon49.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon50.email.rr.com[anonIP] refused to talk to me: 452
+smtp; 452 Too many recipients received this hour. Please see our rate limit policy at http://postmaster.rr.com/spam#ratelimit .
+smtp; 452 Too many recipients received this hour. Please see our rate limit policy at http://postmaster.rr.com/spam#ratelimit .
+XPostfix; delivery temporarily suspended: host anon51.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon52.email.rr.com[anonIP] refused to talk to me: 452
+smtp; 452 Too many recipients received this hour. Please see our rate limit policy at http://postmaster.rr.com/spam#ratelimit .
+XPostfix; delivery temporarily suspended: host anon53.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon54.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon55.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon56.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon57.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon58.email.rr.com[anonIP] refused to talk to me: 452
+smtp; 452 Too many recipients received this hour. Please see our rate limit policy at http://postmaster.rr.com/spam#ratelimit .
+smtp; 452 Too many recipients received this hour. Please see our rate limit policy at http://postmaster.rr.com/spam#ratelimit .
+smtp; 421 4.7.1  Connection refused  <anonIP6>   Too many concurrent connections ( <2> ) from source IP
+smtp; 421 4.7.1  Connection refused  <anonIP7>   Too many concurrent connections ( <2> ) from source IP
+smtp; 421 4.7.1  Connection refused  <anonIP8>   Too many concurrent connections ( <2> ) from source IP
+smtp; 421 4.7.1  Connection refused  <anonIP9>   Too many concurrent connections ( <2> ) from source IP
+smtp; 421 4.7.1  Connection refused  <anonIP10>   Too many concurrent connections ( <2> ) from source IP
+smtp; 421 4.7.1  Connection refused  <anonIP11>   Too many concurrent connections ( <2> ) from source IP
+smtp; 452 Too many recipients received this hour. Please see our rate limit policy at http://postmaster.rr.com/spam#ratelimit .
+smtp; 421 4.7.1  Connection refused  <anonIP12>   Too many concurrent connections ( <2> ) from source IP
+smtp; 452 Too many recipients received this hour. Please see our rate limit policy at http://postmaster.rr.com/spam#ratelimit .
+smtp; 421 4.7.1  Connection refused  <anonIP13>   Too many concurrent connections ( <2> ) from source IP
+smtp; 421 4.7.1  Connection refused  <anonIP14>   Too many concurrent connections ( <2> ) from source IP
+XPostfix; delivery temporarily suspended: host anon59.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon60.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon61.email.rr.com[anonIP] refused to talk to me: 452
+smtp; 452 Too many recipients received this hour. Please see our rate limit policy at http://postmaster.rr.com/spam#ratelimit .
+XPostfix; delivery temporarily suspended: host anon62.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon63.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon64.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon65.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon66.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon67.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon68.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon69.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon70.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon71.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon72.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon73.email.rr.com[anonIP] refused to talk to me: 452
+smtp; 421 4.7.1  Connection refused  <anonIP22>   Too many concurrent connections ( <3> ) from source IP
+smtp; 421 4.7.1  Connection refused  <anonIP23>   Too many concurrent connections ( <2> ) from source IP
+smtp; 421 4.7.1  Connection refused  <anonIP24>   Too many concurrent connections ( <3> ) from source IP
+smtp; 421 4.7.1  Connection refused  <anonIP25>   Too many concurrent connections ( <2> ) from source IP
+smtp; 421 4.7.1  Connection refused  <anonIP26>   Too many concurrent connections ( <2> ) from source IP
+smtp; 452 Too many recipients received this hour. Please see our rate limit policy at http://postmaster.rr.com/spam#ratelimit .
+smtp; 421 4.7.1  Connection refused  <anonIP27>   Too many concurrent connections ( <3> ) from source IP
+smtp; 421 4.7.1  Connection refused  <anonIP28>   Too many concurrent connections ( <2> ) from source IP
+smtp; 421 4.7.1  Connection refused  <anonIP29>   Too many concurrent connections ( <2> ) from source IP
+XPostfix; delivery temporarily suspended: host anon74.email.rr.com[anonIP] refused to talk to me: 421
+XPostfix; delivery temporarily suspended: host anon75.email.rr.com[anonIP] refused to talk to me: 421
+XPostfix; delivery temporarily suspended: host anon76.email.rr.com[anonIP] refused to talk to me: 421
+smtp; 452 Too many recipients received this hour. Please see our rate limit policy at http://postmaster.rr.com/spam#ratelimit .
+smtp; 452 Too many recipients received this hour. Please see our rate limit policy at http://postmaster.rr.com/spam#ratelimit .
+XPostfix; delivery temporarily suspended: host anon77.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon78.email.rr.com[anonIP] refused to talk to me: 421
+XPostfix; delivery temporarily suspended: host anon79.email.rr.com[anonIP] refused to talk to me: 421
+XPostfix; delivery temporarily suspended: host anon80.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon81.email.rr.com[anonIP] refused to talk to me: 452
+smtp; 452 Too many recipients received this hour. Please see our rate limit policy at http://postmaster.rr.com/spam#ratelimit .
+XPostfix; delivery temporarily suspended: host anon82.email.rr.com[anonIP] refused to talk to me: 452
+smtp; 452 Too many recipients received this hour. Please see our rate limit policy at http://postmaster.rr.com/spam#ratelimit .
+XPostfix; delivery temporarily suspended: host anon83.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon84.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon85.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon86.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon87.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon88.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon89.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon90.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon91.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon92.email.rr.com[anonIP] refused to talk to me: 452
+smtp; 452 Too many recipients received this hour. Please see our rate limit policy at http://postmaster.rr.com/spam#ratelimit .
+XPostfix; delivery temporarily suspended: host anon93.email.rr.com[anonIP] refused to talk to me: 452
+smtp; 452 Too many recipients received this hour. Please see our rate limit policy at http://postmaster.rr.com/spam#ratelimit .
+XPostfix; delivery temporarily suspended: host anon94.email.rr.com[anonIP] refused to talk to me: 452
+smtp; 452 Too many recipients received this hour. Please see our rate limit policy at http://postmaster.rr.com/spam#ratelimit .
+smtp; 421 4.7.1  Connection refused  <anonIP15>   Too many concurrent connections ( <3> ) from source IP
+smtp; 421 4.7.1  Connection refused  <anonIP16>   Too many concurrent connections ( <3> ) from source IP
+smtp; 421 4.7.1  Connection refused  <anonIP17>   Too many concurrent connections ( <3> ) from source IP
+smtp; 421 4.7.1  Connection refused  <anonIP18>   Too many concurrent connections ( <3> ) from source IP
+smtp; 421 4.7.1  Connection refused  <anonIP19>   Too many concurrent connections ( <2> ) from source IP
+smtp; 421 4.7.1  Connection refused  <anonIP20>   Too many concurrent connections ( <3> ) from source IP
+smtp; 421 4.7.1  Connection refused  <anonIP21>   Too many concurrent connections ( <2> ) from source IP
+XPostfix; delivery temporarily suspended: host anon95.email.rr.com[anonIP] refused to talk to me: 421
+XPostfix; delivery temporarily suspended: host anon96.email.rr.com[anonIP] refused to talk to me: 421
+XPostfix; delivery temporarily suspended: host anon97.email.rr.com[anonIP] refused to talk to me: 421
+XPostfix; delivery temporarily suspended: host anon98.email.rr.com[anonIP] refused to talk to me: 421
+XPostfix; delivery temporarily suspended: host anon99.email.rr.com[anonIP] refused to talk to me: 421
+XPostfix; delivery temporarily suspended: host anon100.email.rr.com[anonIP] refused to talk to me: 421
+XPostfix; delivery temporarily suspended: host anon101.email.rr.com[anonIP] refused to talk to me: 421
+XPostfix; delivery temporarily suspended: host anon102.email.rr.com[anonIP] refused to talk to me: 421
+XPostfix; delivery temporarily suspended: host anon103.email.rr.com[anonIP] refused to talk to me: 421
+smtp; 421 4.7.1  Connection refused  <anonIP22>   Too many concurrent connections ( <3> ) from source IP
+smtp; 421 4.7.1  Connection refused  <anonIP23>   Too many concurrent connections ( <2> ) from source IP
+smtp; 421 4.7.1  Connection refused  <anonIP24>   Too many concurrent connections ( <2> ) from source IP
+smtp; 421 4.7.1  Connection refused  <anonIP25>   Too many concurrent connections ( <2> ) from source IP
+smtp; 421 4.7.1  Connection refused  <anonIP26>   Too many concurrent connections ( <2> ) from source IP
+smtp; 421 4.7.1  Connection refused  <anonIP27>   Too many concurrent connections ( <2> ) from source IP
+smtp; 421 4.7.1  Connection refused  <anonIP28>   Too many concurrent connections ( <3> ) from source IP
+smtp; 452 Too many recipients received this hour. Please see our rate limit policy at http://postmaster.rr.com/spam#ratelimit .
+smtp; 452 Too many recipients received this hour. Please see our rate limit policy at http://postmaster.rr.com/spam#ratelimit .
+smtp; 452 Too many recipients received this hour. Please see our rate limit policy at http://postmaster.rr.com/spam#ratelimit .
+XPostfix; delivery temporarily suspended: host anon104.email.rr.com[anonIP] refused to talk to me: 421
+XPostfix; delivery temporarily suspended: host anon105.email.rr.com[anonIP] refused to talk to me: 421
+XPostfix; delivery temporarily suspended: host anon106.email.rr.com[anonIP] refused to talk to me: 421
+XPostfix; delivery temporarily suspended: host anon107.email.rr.com[anonIP] refused to talk to me: 421
+XPostfix; delivery temporarily suspended: host anon108.email.rr.com[anonIP] refused to talk to me: 421
+XPostfix; delivery temporarily suspended: host anon109.email.rr.com[anonIP] refused to talk to me: 421
+XPostfix; delivery temporarily suspended: host anon110.email.rr.com[anonIP] refused to talk to me: 421
+XPostfix; delivery temporarily suspended: host anon111.email.rr.com[anonIP] refused to talk to me: 421
+XPostfix; delivery temporarily suspended: host anon112.email.rr.com[anonIP] refused to talk to me: 421
+smtp; 421 4.7.1  Connection refused  <anonIP30>   Too many concurrent connections ( <2> ) from source IP
+smtp; 452 Too many recipients received this hour. Please see our rate limit policy at http://postmaster.rr.com/spam#ratelimit .
+smtp; 452 Too many recipients received this hour. Please see our rate limit policy at http://postmaster.rr.com/spam#ratelimit .
+smtp; 452 Too many recipients received this hour. Please see our rate limit policy at http://postmaster.rr.com/spam#ratelimit .
+smtp; 452 Too many recipients received this hour. Please see our rate limit policy at http://postmaster.rr.com/spam#ratelimit .
+smtp; 452 Too many recipients received this hour. Please see our rate limit policy at http://postmaster.rr.com/spam#ratelimit .
+smtp; 452 Too many recipients received this hour. Please see our rate limit policy at http://postmaster.rr.com/spam#ratelimit .
+smtp; 452 Too many recipients received this hour. Please see our rate limit policy at http://postmaster.rr.com/spam#ratelimit .
+smtp; 452 Too many recipients received this hour. Please see our rate limit policy at http://postmaster.rr.com/spam#ratelimit .
+smtp; 452 Too many recipients received this hour. Please see our rate limit policy at http://postmaster.rr.com/spam#ratelimit .
+XPostfix; delivery temporarily suspended: host anon113.email.rr.com[anonIP] refused to talk to me: 452
+XPostfix; delivery temporarily suspended: host anon114.email.rr.com[anonIP] refused to talk to me: 452
+smtp; 421 4.7.1  Connection refused  <anonIP31>   Too many concurrent connections ( <2> ) from source IP
+smtp; 452 Too many recipients received this hour. Please see our rate limit policy at http://postmaster.rr.com/spam#ratelimit .
+XPostfix; delivery temporarily suspended: host anon115.email.rr.com[anonIP] refused to talk to me: 452
+smtp; 452 Too many recipients received this hour. Please see our rate limit policy at http://postmaster.rr.com/spam#ratelimit .
+smtp; 452 Too many recipients received this hour. Please see our rate limit policy at http://postmaster.rr.com/spam#ratelimit .
+smtp; 452 Too many recipients received this hour. Please see our rate limit policy at http://postmaster.rr.com/spam#ratelimit .
+smtp; 452 Too many recipients received this hour. Please see our rate limit policy at http://postmaster.rr.com/spam#ratelimit .
+smtp; 452 Too many recipients received this hour. Please see our rate limit policy at http://postmaster.rr.com/spam#ratelimit .
+smtp; 452 Too many recipients received this hour. Please see our rate limit policy at http://postmaster.rr.com/spam#ratelimit .
