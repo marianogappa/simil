@@ -84,10 +84,10 @@ func generateOneHots(in []string, fs map[string]freq) [][]float64 {
 	return ohs
 }
 
-func readInput() []string {
+func readInput(r io.Reader) []string {
 	var (
 		ls  = make([]string, 0, 500)
-		rd  = bufio.NewReader(os.Stdin)
+		rd  = bufio.NewReader(r)
 		l   string
 		err error
 	)
@@ -105,6 +105,55 @@ func readInput() []string {
 	return ls
 }
 
+func out(short bool, i int, in string) {
+	if short {
+		fmt.Printf("%v\t%v\n", i, in)
+	} else {
+		fmt.Printf("Cluster %v\t%v\n", i, in)
+	}
+}
+
+func run(r io.Reader, k uint64, short, random bool, out func(bool, int, string)) {
+	var (
+		in  = readInput(r)
+		fs  = generateFreqs(in)
+		ohs = generateOneHots(in, fs)
+		cs  = kmeans(ohs, k, 0.001)
+	)
+	for i := range cs {
+		maxSumFs, maxSumFsI := 0, 0 // sentence in cluster with maximum aggregate frequency
+		for _, p := range cs[i].ps {
+			var inI int
+		ohs:
+			for j, oh := range ohs { // find the sentence (in[j]) from the feature vector (cs[i].ps)
+				for l, c := range oh {
+					if c != p[l] {
+						continue ohs
+					}
+				}
+				if !short {
+					out(short, i, in[j])
+				}
+				inI = j
+				break
+			}
+
+			if short {
+				sumFs := 0 // calculate sentence aggregate frequency
+				for _, f := range p[0:len(fs)] {
+					sumFs += int(f)
+				}
+				if sumFs > maxSumFs { // find sentence with maximum aggregate frequency
+					maxSumFs, maxSumFsI = sumFs, inI
+				}
+			}
+		}
+		if short && len(cs[i].ps) > 0 {
+			out(short, len(cs[i].ps), in[maxSumFsI])
+		}
+	}
+}
+
 func main() {
 	var (
 		k      = flag.Uint64("k", 5, "how many clusters")
@@ -118,42 +167,5 @@ func main() {
 		rand.Seed(time.Now().UTC().UnixNano())
 	}
 
-	var (
-		in  = readInput()
-		fs  = generateFreqs(in)
-		ohs = generateOneHots(in, fs)
-		cs  = kmeans(ohs, *k, 0.001)
-	)
-	for i := range cs {
-		maxSumFs, maxSumFsI := 0, 0 // sentence in cluster with maximum aggregate frequency
-		for _, p := range cs[i].ps {
-			var inI int
-		ohs:
-			for j, oh := range ohs { // find the sentence (in[j]) from the feature vector (cs[i].ps)
-				for l, c := range oh {
-					if c != p[l] {
-						continue ohs
-					}
-				}
-				if !*short {
-					fmt.Printf("Cluster %v\t%v\n", i, in[j])
-				}
-				inI = j
-				break
-			}
-
-			if *short {
-				sumFs := 0 // calculate sentence aggregate frequency
-				for _, f := range p[0:len(fs)] {
-					sumFs += int(f)
-				}
-				if sumFs > maxSumFs { // find sentence with maximum aggregate frequency
-					maxSumFs, maxSumFsI = sumFs, inI
-				}
-			}
-		}
-		if *short && len(cs[i].ps) > 0 {
-			fmt.Printf("%v\t%v\n", len(cs[i].ps), in[maxSumFsI])
-		}
-	}
+	run(os.Stdin, *k, *short, *random, out)
 }
