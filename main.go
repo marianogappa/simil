@@ -49,7 +49,7 @@ func generateOneHots(in []string, fs map[string]freq) [][]float64 {
 
 	var maxWordCount = 0
 	for i := range in {
-		var split = strings.Split(in[i], " ")
+		var split = strings.Fields(in[i])
 		for j, w := range split {
 			var f = fs[w]
 			ohs[i][f.i] = float64(f.c) // 1.
