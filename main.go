@@ -109,7 +109,7 @@ func out(short bool, i int, in string) {
 	if short {
 		fmt.Printf("%v\t%v\n", i, in)
 	} else {
-		fmt.Printf("Cluster %v\t%v\n", i, in)
+		fmt.Printf("cluster%v\t%v\n", i, in)
 	}
 }
 
