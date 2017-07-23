@@ -121,21 +121,10 @@ func run(r io.Reader, k uint64, short, random bool, out func(bool, int, string))
 		cs  = kmeans(ohs, k, 0.001)
 	)
 	for i := range cs {
-		maxSumFs, maxSumFsI := 0, 0 // sentence in cluster with maximum aggregate frequency
-		for _, p := range cs[i].ps {
-			var inI int
-		ohs:
-			for j, oh := range ohs { // find the sentence (in[j]) from the feature vector (cs[i].ps)
-				for l, c := range oh {
-					if c != p[l] {
-						continue ohs
-					}
-				}
-				if !short {
-					out(short, i, in[j])
-				}
-				inI = j
-				break
+		maxSumFs, maxSumFsIn := -9999999, "" // sentence in cluster with maximum aggregate frequency
+		for j, p := range cs[i].ps {
+			if !short {
+				out(false, i, in[cs[i].is[j]])
 			}
 
 			if short {
@@ -144,12 +133,12 @@ func run(r io.Reader, k uint64, short, random bool, out func(bool, int, string))
 					sumFs += int(f)
 				}
 				if sumFs > maxSumFs { // find sentence with maximum aggregate frequency
-					maxSumFs, maxSumFsI = sumFs, inI
+					maxSumFs, maxSumFsIn = sumFs, in[cs[i].is[j]]
 				}
 			}
 		}
 		if short && len(cs[i].ps) > 0 {
-			out(short, len(cs[i].ps), in[maxSumFsI])
+			out(true, len(cs[i].ps), maxSumFsIn)
 		}
 	}
 }

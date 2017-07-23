@@ -8,6 +8,7 @@ import (
 type centroid struct {
 	center []float64
 	ps     [][]float64
+	is     []int
 }
 
 func d(p1, p2 []float64) float64 {
@@ -49,6 +50,7 @@ func kmeans(data [][]float64, k uint64, deltaThreshold float64) (centroids []cen
 				}
 			}
 			centroids[z].ps = append(centroids[z].ps, data[i])
+			centroids[z].is = append(centroids[z].is, i)
 		}
 		maxDelta := -math.MaxFloat64
 		for i := range centroids {
